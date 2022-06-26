@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.current-position{
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(0,0,0);
+}
+
+.control-buttons{
+  display: grid;
+
+}
+
+.buttons-container-1{
+  justify-content: center;
+  display: grid;
+}
+.buttons-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.control-btn{
+  margin: 0.5rem;
+}
